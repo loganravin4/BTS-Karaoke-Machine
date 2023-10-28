@@ -30,8 +30,8 @@ public class GUI implements ActionListener {
 
     public GUI() throws MalformedURLException, LineUnavailableException, IOException, UnsupportedAudioFileException {
         
-        String filepathDynamite = "[ONTIVA.COM] BTS (방탄소년단) - DYNAMITE (Official Audio)-128k.wav";
-        String filepathButter = "[ONTIVA.COM] BTS (방탄소년단) - BUTTER (Official Audio)-128k.wav";
+        String filepathDynamite = "dynamite.wav";
+        String filepathButter = "butter.wav";
         File dynamiteFile = new File(filepathDynamite);
         File butterFile = new File(filepathButter);
         Audio dynamiteAudio = new Audio(dynamiteFile);
